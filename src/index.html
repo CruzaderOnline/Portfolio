@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <title>Mini Portfólio</title>
+</head>
+<body>
+    <!--cada div corresponde a um bloco-->
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Douglas Cruz</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./imagens/sobre.gif" alt="ícone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./imagens/coracao.gif" alt="ícone de redes sociais">
+                </li>
+            </ul>
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+                    <div class="descricao" align="justify">
+                        <p>Olá, eu sou o Cruz! Entusiasta da tecnologia e fascinado por conhecimento, me iniciei na área de programação em 2022 e desde então me dedico para me especializar como desenvolvedor Front-end.</p>
+                        <br>
+                        <p>
+                             Atualmente estou aprendendo <span>HTML, CSS e JavaScript</span>, e quero dominar as bases do <span>React, Bootstrap, Meteor</span> e futuramente expandir para outros frameworks e linguagens.
+                        </p>
+                    </div>
+                </div>
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://CruzaderOnline.github.io/galeria-projetos/" target="_blank" class="projetos">Projetos <img src="https://www.svgrepo.com/show/140121/rocket.svg" /> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/dougiedcruz/" target="_blank" class="instagram">Instagram <img src="https://simpleicons.org/icons/instagram.svg"> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/dougiecruz/" target="_blank" class="linkedin">LinkedIn <img src="https://simpleicons.org/icons/linkedin.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/CruzaderOnline" target="_blank" class="github">GitHub 
+                                <img src="https://simpleicons.org/icons/github.svg" />
+                              </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/src/js/index.js"></script>
+</body>
+</html>
